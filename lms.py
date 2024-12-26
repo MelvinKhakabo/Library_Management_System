@@ -64,6 +64,7 @@ library.add_book(x)
 library.add_book(y)
 library.add_book(z)
 
+#display the list of books in the library
 library.display_books()
 
 library.lend_book('The Great Gatsby')
