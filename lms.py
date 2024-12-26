@@ -58,3 +58,16 @@ class Library:
             print("\nCurrent Books in the Library:")
             for book in current_books:
                 book.display_info()
+
+library = Library()
+library.add_book(x)
+library.add_book(y)
+library.add_book(z)
+
+library.display_books()
+
+library.lend_book('The Great Gatsby')
+library.lend_book("Pride and Prejudice")  #To see the output I checked againstthe library.lend_book("") ---- check with empty request
+library.lend_book("To Kill a Mockingbird")
+library.return_book("Pride and Prejudice") 
+library.display_current_books() #check current list of books in library after lending and returning books.
